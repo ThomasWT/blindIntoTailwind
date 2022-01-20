@@ -1,31 +1,50 @@
 <template>
   <div id="app">
-    <card />
+    <card :data="platform" v-for="platform in platforms" :key="platform.name" />
   </div>
 </template>
 
 <script>
-import card from './components/card.vue'
-
-export default {
-  name: 'App',
-  components: {
-    card
+  import card from './components/card.vue'
+  export default {
+    name: 'App',
+    components: {
+      card
+    },
+    data() {
+      return {
+        platforms: [{
+            name: 'YouTube',
+            val: 1.2,
+            unit: 'm',
+            type: 'followers',
+            percentChange: 2.2,
+            weeklyGraph: [7, 9, 7.5, 9, 8.5, 10],
+            logo: 'youtube.svg',
+            color: '#C8102E'
+          },
+          {
+            name: 'Twitch',
+            val: 300,
+            unit: '',
+            type: 'subscribers',
+            percentChange: 8.3,
+            weeklyGraph: [9, 5, 7.5, 6, 8.5, 10],
+            logo: 'twitch.svg',
+            color: '#9146FF'
+          },
+        ]
+      }
+    }
   }
-}
 </script>
 
 <style lang="scss">
-html {
+  html {
     background: #1A162F;
-}
-#app {
-
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  }
+  #app {
+    font-family: 'Poppins';
+    margin-top: 60px;
+  }
 </style>

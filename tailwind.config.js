@@ -146,6 +146,7 @@ module.exports = {
       lg: '0.5rem',
       xl: '0.75rem',
       '2xl': '1rem',
+      '2.5x1': '1.25rem',
       '3xl': '1.5rem',
       full: '9999px',
     },
