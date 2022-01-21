@@ -1,19 +1,3 @@
 # blindintotailwind
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![image](https://user-images.githubusercontent.com/1246641/150441779-40336723-7632-4c0c-8689-2e769f371ca3.png)
