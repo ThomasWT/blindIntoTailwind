@@ -1,5 +1,5 @@
 <template>
-    <div class="chart -mt-5">
+    <div class="-mt-5">
         <apexchart width="100%" type="area" height="90" :options="options" :series="series"></apexchart>
     </div>
 </template>
