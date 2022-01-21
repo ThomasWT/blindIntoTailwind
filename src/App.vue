@@ -30,7 +30,7 @@
             type: 'subscribers',
             percentChange: 8.3,
             weeklyGraph: [9, 5, 7.5, 6, 8.5, 10],
-            logo: 'twitch.svg',
+            logo: 'icon_tw.svg',
             color: '#9146FF'
           },
         ]
